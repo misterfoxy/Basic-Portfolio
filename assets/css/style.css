@@ -1,0 +1,106 @@
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+*/
+
+body {
+  background-color: #4aaaa5;
+}
+
+a{
+  color: #ffffff;
+}
+
+.name, .out{
+  display: inline-block;
+}
+
+
+.header {
+  background-color: #333333;
+  border-color: #cccccc;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  float:left;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  top: 0;
+  left: 0;
+}
+
+.name {
+  margin-left: 40px;
+  text-align: center;
+  height: 110px;
+  width: 200px;
+  background-color: white;
+  top: 0;
+}
+
+.out{
+  margin-left: 600px;
+}
+
+span{
+  display: table-row;
+}
+.container{
+  margin-top: 90px;
+  display: inline-block;
+}
+
+.main {
+
+  height: 480px;
+  background-color: #fff;
+  width: 360px;
+  margin-top: 120px;
+  margin-left: 60px;
+  margin-bottom: 120px;
+  display: inline-block;
+  text-align: center;
+}
+
+.sidebar{
+  height:240px;
+  width:240px;
+  margin-top:120px;
+  margin-left: 600px;
+
+  float:right;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+#logoLink, #profilePic{
+  height: 100px;
+  width:100px;
+}
+
+h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+
+}
+
+
+footer {
+  position:fixed;
+  bottom:0;
+  background-color: #666666;
+  width:100%;
+  text-align: center;
+
+  margin-left: auto;
+}
